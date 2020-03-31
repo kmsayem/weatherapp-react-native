@@ -45,7 +45,7 @@ const HomeScreen = ({
   const getTemperatureByGeolocation = () => {
 
     let setTime = new Date();
-    setTime.setHours(15);
+    setTime.setHours(10);
     // setTime.setMinutes(0);
     // console.log(setTime,new Date(Date.now() + 20 * 1000));
     Geolocation.getCurrentPosition(position => {
